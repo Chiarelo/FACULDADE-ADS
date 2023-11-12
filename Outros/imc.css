@@ -1,0 +1,98 @@
+/* Ajustando o fundo da página */
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: helvetica;
+    margin: 0; /* Remova margens padrão */
+    padding: 0; /* Remova preenchimentos padrão */
+}
+
+/* Estilo do container principal */
+#Container {
+    width: 50%;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background-color: #111;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+    padding: 20px; /* Espaçamento interno movido para cá */
+}
+
+/* Estilo do formulário dentro do container */
+#Form {
+    border: none;
+    margin: 20px;
+}
+
+/* Estilo da área de resposta e textarea */
+#areaResposta, textarea {
+    margin-top: 20px;
+    background-color: #4b4949;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+/* Estilo do título h1 */
+h1 {
+    color: #1f6eb5;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #0f4b63;
+    margin-top: 0; /* Remova o espaçamento superior padrão */
+}
+
+/* Ajustando o espaçamento inferior para todas as divs */
+div {
+    margin-bottom: 10px;
+}
+
+/* Estilo para todos os inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #4b4949;
+    color: #ffffff;
+}
+
+/* Estilo para todas as labels e h2 */
+label, h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo para o botão */
+button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0b3647;
+}
+
+/* Estilo para imagens */
+img {
+    display: block;
+    margin: 10px auto;
+    align-items: center; /* Esta propriedade se aplica a elementos flex, não a imagens */
+}
